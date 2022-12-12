@@ -2,7 +2,8 @@ package com.java.Oops.abstractClass;
 
 abstract public class Parent 
 {
-	int a=10;
+//	int a=10;
+	static int a=10;
 	public void bunglow()	//method declaration
 	{						//method defination
 		System.out.println("Parent: 2 bunglows");
