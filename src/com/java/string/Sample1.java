@@ -12,5 +12,9 @@ public class Sample1
 		System.out.println(s2.contains(s1));
 		String s3="ASPIRE";
 		System.out.println(s1.equalsIgnoreCase(s3));
+		String s4=" ";
+		String s5=null;
+		System.out.println(s4.isEmpty());
+		System.out.println(s4.isBlank());		//space will be treated as blank
 	}
 }
